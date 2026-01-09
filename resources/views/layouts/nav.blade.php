@@ -7,7 +7,7 @@
 
         {{-- Brand --}}
         <a href="{{ route('shop') }}" class="navbar-brand d-flex align-items-center">
-            <img src="{{ Vite::asset('../resources/images/logo.png') }}"
+            <img src="{{ Vite::asset('resources/images/logo.png') }}"
                  alt="neabeauty Logo"
                  class="me-2"
                  style="height: 28px;">

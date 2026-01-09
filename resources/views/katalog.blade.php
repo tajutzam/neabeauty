@@ -132,7 +132,7 @@
 
                 <div class="col-md-4 mb-4">
                     <h5 class="mb-3">
-                        <img src="{{ Vite::asset('../resources/images/logo.png') }}" 
+                        <img src="{{ Vite::asset('resources/images/logo.png') }}" 
                              alt="Logo" style="height: 28px;" class="me-2">
                         Nea Beauty
                     </h5>

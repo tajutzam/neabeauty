@@ -23,7 +23,7 @@
 
             <div class="container">
                     <a href="{{ route('shop') }}" class="navbar-brand mb-0 h1">
-                        <img src="{{ Vite::asset('../resources/images/logo.png') }}" alt="Autumn Logo" class="me-2" style="height: 24px;">
+                        <img src="{{ Vite::asset('resources/images/logo.png') }}" alt="Autumn Logo" class="me-2" style="height: 24px;">
                         Nea Beauty 
                     </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">

@@ -15,7 +15,7 @@
 
       <!-- Gambar SUPER BESAR -->
       <div class="col-lg-5 text-center mb-5 mb-lg-0">
-        <img src="{{ Vite::asset('../resources/images/header.png') }}" 
+        <img src="{{ Vite::asset('resources/images/header.png') }}" 
              alt="headers"
              class="img-fluid"
              style="
@@ -84,7 +84,7 @@
       <div class="col-md-6 col-lg-3 d-flex justify-content-center">
         <div class="p-5 rounded-4 text-center"
              style="background:#ffe3ef; border:3px solid #ffb6cf; width:100%; max-width:380px;">
-          <img src="{{ Vite::asset('../resources/images/tisu3.png') }}" 
+          <img src="{{ Vite::asset('resources/images/tisu3.png') }}" 
                style="width:120px; margin-bottom:25px;">
           <h4 style="color:#cc2f6f; font-weight:800; font-size:30px;">Bisa Dicuci 7x</h4>
           <p style="color:#444; margin-top:15px; font-size:20px; line-height:1.6;">
@@ -97,7 +97,7 @@
       <div class="col-md-6 col-lg-3 d-flex justify-content-center">
         <div class="p-5 rounded-4 text-center"
              style="background:#ffe3ef; border:3px solid #ffb6cf; width:100%; max-width:380px;">
-          <img src="{{ Vite::asset('../resources/images/tisu.png') }}" 
+          <img src="{{ Vite::asset('resources/images/tisu.png') }}" 
                style="width:120px; margin-bottom:25px;">
           <h4 style="color:#cc2f6f; font-weight:800; font-size:30px;">Premium Quality</h4>
           <p style="color:#444; margin-top:15px; font-size:20px; line-height:1.6;">
@@ -110,7 +110,7 @@
       <div class="col-md-6 col-lg-3 d-flex justify-content-center">
         <div class="p-5 rounded-4 text-center"
              style="background:#ffe3ef; border:3px solid #ffb6cf; width:100%; max-width:380px;">
-          <img src="{{ Vite::asset('../resources/images/tisu2.png') }}" 
+          <img src="{{ Vite::asset('resources/images/tisu2.png') }}" 
                style="width:120px; margin-bottom:25px;">
           <h4 style="color:#cc2f6f; font-weight:800; font-size:30px;">Hemat & Awet</h4>
           <p style="color:#444; margin-top:15px; font-size:20px; line-height:1.6;">
@@ -123,7 +123,7 @@
       <div class="col-md-6 col-lg-3 d-flex justify-content-center">
         <div class="p-5 rounded-4 text-center"
              style="background:#ffe3ef; border:3px solid #ffb6cf; width:100%; max-width:380px;">
-          <img src="{{ Vite::asset('../resources/images/tisu 7.png') }}" 
+          <img src="{{ Vite::asset('resources/images/tisu 7.png') }}" 
                style="width:120px; margin-bottom:25px;">
           <h4 style="color:#cc2f6f; font-weight:800; font-size:30px;">Serbaguna</h4>
           <p style="color:#444; margin-top:15px; font-size:20px; line-height:1.6;">
@@ -163,7 +163,7 @@
       <div class="col-md-6 col-lg-3">
         <a href="/katalog" class="text-decoration-none text-dark">
           <div class="card h-100">
-            <img src="{{ Vite::asset('../resources/images/produk 1.png') }}" class="card-img-top">
+            <img src="{{ Vite::asset('resources/images/produk 1.png') }}" class="card-img-top">
             <div class="card-body text-center">
               <h5 class="card-title">Neabeauty Lap Serbaguna 575 Sheet</h5>
               <p class="card-text">Rp 65.000</p>
@@ -175,7 +175,7 @@
       <div class="col-md-6 col-lg-3">
         <a href="/katalog" class="text-decoration-none text-dark">
           <div class="card h-100">
-            <img src="{{ Vite::asset('../resources/images/produk 2.png') }}" class="card-img-top">
+            <img src="{{ Vite::asset('resources/images/produk 2.png') }}" class="card-img-top">
             <div class="card-body text-center">
               <h5 class="card-title">Neabeauty Non Lipat / NBN</h5>
               <p class="card-text">Rp 70.000</p>
@@ -187,7 +187,7 @@
       <div class="col-md-6 col-lg-3">
         <a href="/katalog" class="text-decoration-none text-dark">
           <div class="card h-100">
-            <img src="{{ Vite::asset('../resources/images/produk 3.png') }}" class="card-img-top">
+            <img src="{{ Vite::asset('resources/images/produk 3.png') }}" class="card-img-top">
             <div class="card-body text-center">
               <h5 class="card-title">Neabeauty Jumbopack 1kg</h5>
               <p class="card-text">Rp 185.000</p>
@@ -199,7 +199,7 @@
       <div class="col-md-6 col-lg-3">
         <a href="/katalog" class="text-decoration-none text-dark">
           <div class="card h-100">
-            <img src="{{ Vite::asset('../resources/images/produk 4.png') }}" class="card-img-top">
+            <img src="{{ Vite::asset('resources/images/produk 4.png') }}" class="card-img-top">
             <div class="card-body text-center">
               <h5 class="card-title">Neabeauty Lipat 175 Sheet</h5>
               <p class="card-text">Rp 35.000</p>
@@ -220,14 +220,14 @@
   <div class="container">
     <h2 class="gallery-title">Gallery</h2>
     <div class="gallery-grid">
-      <img src="{{ Vite::asset('../resources/images/gallery1 (1).png') }}">
-      <img src="{{ Vite::asset('../resources/images/gallery1 (2).png') }}">
-      <img src="{{ Vite::asset('../resources/images/gallery1 (3).png') }}">
-      <img src="{{ Vite::asset('../resources/images/gallery1 (4).png') }}">
-      <img src="{{ Vite::asset('../resources/images/gallery1 (5).png') }}">
-      <img src="{{ Vite::asset('../resources/images/gallery1 (6).png') }}">
-      <img src="{{ Vite::asset('../resources/images/gallery1 (7).png') }}">
-      <img src="{{ Vite::asset('../resources/images/tisu 4.png') }}">
+      <img src="{{ Vite::asset('resources/images/gallery1 (1).png') }}">
+      <img src="{{ Vite::asset('resources/images/gallery1 (2).png') }}">
+      <img src="{{ Vite::asset('resources/images/gallery1 (3).png') }}">
+      <img src="{{ Vite::asset('resources/images/gallery1 (4).png') }}">
+      <img src="{{ Vite::asset('resources/images/gallery1 (5).png') }}">
+      <img src="{{ Vite::asset('resources/images/gallery1 (6).png') }}">
+      <img src="{{ Vite::asset('resources/images/gallery1 (7).png') }}">
+      <img src="{{ Vite::asset('resources/images/tisu 4.png') }}">
     </div>
   </div>
 </section>
@@ -240,7 +240,7 @@
 
                 <div class="col-md-4 mb-4">
                     <h5 class="mb-3">
-                        <img src="{{ Vite::asset('../resources/images/logo.png') }}" 
+                        <img src="{{ Vite::asset('resources/images/logo.png') }}" 
                              alt="Logo" style="height: 28px;" class="me-2">
                         Nea Beauty
                     </h5>
