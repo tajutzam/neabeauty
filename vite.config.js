@@ -9,10 +9,8 @@ export default defineConfig({
                 "resources/js/app.js",
                 "resources/css/app.css",
                 "resources/css/admin.css",
-                // "resources/css/dataTables.bootstrap5.css",
             ],
             refresh: true,
         }),
     ],
-    Q,
 });
